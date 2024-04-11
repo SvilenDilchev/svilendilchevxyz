@@ -1,9 +1,24 @@
-.footer{
+.footer {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 3em;
+    padding: 3em 0;
+    /* Adjusted padding */
+
+    position: relative;
+    bottom: auto;
 }
+
+ @media (min-height: 800px) {
+    .footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        margin-top: 30em;
+    }
+} 
 
 .footerText {
     color: lightgray;
