@@ -14,7 +14,7 @@ export default function Footer() {
                 </p>
                 <br />
                 <p>
-                    Built with <Link href={"https://nextjs.org/"}><u>Next.js</u></Link>. View the source code <Link href={"https://github.com/SvilenDilchev"}><u>on GitHub</u></Link>.
+                    Built with <Link href={"https://nextjs.org/"}><u>Next.js</u></Link>. View the source code <Link href={"https://github.com/SvilenDilchev/svilendilchevxyz"}><u>on GitHub</u></Link>.
                 </p>
             </div>
         </div>

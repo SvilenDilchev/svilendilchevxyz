@@ -5,7 +5,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 6rem;
+  padding-right: 6rem;
+  padding-left: 6rem;
+  padding-bottom: 5rem;
+  padding-top: 2rem;
   gap: 4rem;
 }
 
@@ -15,4 +18,23 @@
   background-color: rgb(93, 91, 126);
   padding: 2em;
   border-radius: 15px;
+}
+
+.main {
+  margin-bottom: auto;
+}
+
+.contactList{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+}
+
+.contactList > * {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
 }

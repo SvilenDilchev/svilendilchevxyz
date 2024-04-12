@@ -13,14 +13,18 @@ export default function Navbar() {
                     <h2>Svilen Dilchev</h2>
                 </Link>
             </div>
-            <div className={styles.navButtons}>
-                <Link href={"/"} className={styles.navButton}>
-                    <span>Projects</span>
-                </Link>
-                <Link href={"/"} className={styles.navButton}>
-                    <span>Contact</span>
-                </Link>
-            </div>
+            <ul className={styles.navButtons}>
+                <li>
+                    <Link href={"/"} className={styles.navButton}>
+                        <span>Projects</span>
+                    </Link>
+                </li>
+                <li>
+                    <Link href={"/contact"} className={styles.navButton}>
+                        <span>Contact</span>
+                    </Link>
+                </li>
+            </ul>
             <div className={styles.navIcons}>
                 <Link href={"https://github.com/SvilenDilchev"}>
                     <Image
